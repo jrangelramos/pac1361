@@ -1,7 +1,7 @@
 specVersion: 0.36.0
 name: pac1361
 runtime: node
-registry: image-registry.openshift-image-registry.svc:5000/knfunc-oncluster-test-naszfo
+registry: image-registry.openshift-image-registry.svc:5000/pac-test
 created: 2025-08-27T10:51:09.153824652-03:00
 build:
   git:
@@ -9,4 +9,4 @@ build:
     revision: main
   builder: s2i
 deploy:
-  image: image-registry.openshift-image-registry.svc:5000/knfunc-oncluster-test-naszfo/pac1361:latest
+  image: image-registry.openshift-image-registry.svc:5000/pac-test/pac1361:latest
